@@ -10,13 +10,24 @@ img{
   border-radius: 15px;
 }
 
-.content, h4{
+.content{
   margin: auto;
   margin-top: 20px;
   padding: 10px;
   max-width: 500px;
   text-align: center;
   background: #f1b83d;
+  font-size: 30px;
+  font-family: 'Anton', sans-serif;
+}
+
+h4{
+ margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  max-width: 500px;
+  text-align: center;
+  color: #FFDB89;
   font-size: 30px;
   font-family: 'Anton', sans-serif;
 }
