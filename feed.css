@@ -29,17 +29,18 @@ img{
 }
 
 button{
-  display: inline;
-  text-align: center;
-  margin: auto;
-  display: flex;
-  text-decoration: none;
-  margin-top: 8px;
-  background-color: #386274;
-  border-radius: 25px;
-  height: auto;
-  width: auto;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
 }
+
 
 button:hover{
   background-color: #D7614D;
@@ -48,4 +49,8 @@ button:hover{
 
 a{
   color: white;
+}
+
+.center{
+   text-align: center;
 }
