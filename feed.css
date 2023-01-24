@@ -3,7 +3,7 @@
 body, html{
   padding: 0;
   margin: 0;
-  background-color: #f1b83d;
+  background-color: #dc0000;
 }
 
 img{
@@ -28,7 +28,7 @@ h4{
   max-width: 500px;
   text-align: center;
   color: #FFDB89;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Anton', sans-serif;
 }
 
