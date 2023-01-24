@@ -1,7 +1,7 @@
 const question = document.querySelector('.question');
   const yesBtn = document.querySelector('.yes-btn');
  yesBtn.addEventListener('click', () => {
-   question.innerHTML = 'I Love You Too :)';
+   question.innerHTML = 'I Love You :)';
 });
 //sets a random absolute position to a html element; receives the html element
 function moveElmRand(elm){
