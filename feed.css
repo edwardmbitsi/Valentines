@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
 body, html{
   padding: 0;
@@ -29,7 +30,7 @@ h4{
   text-align: center;
   color: #FFDB89;
   font-size: 50px;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Kalam', cursive;
 }
 
 img{
