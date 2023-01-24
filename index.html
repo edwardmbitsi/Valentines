@@ -1,41 +1,22 @@
-<!-- index.html -->
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feed.css">
     <title>Valentines Question</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="card">    
-<h4 style="text-align: center;">Example auto-moving html element</h4>
-<p style="text-align: center;">Try to click on the following button.</p>
- <h2 class="question" style="text-align: center">blah blah</h2>
-<div class="btn-group">
-    <button class="yes-btn">Yes</div>
-   <button id='btn_test'>Catch Me</button>
-  </div>
-    </div>    
-<script>
-  const question = document.querySelector('.question');
-  const yesBtn = document.querySelector('.yes-btn');
- yesBtn.addEventListener('click', () => {
-   question.innerHTML = 'I Love You Too :)';
-});
-//sets a random absolute position to a html element; receives the html element
-function moveElmRand(elm){
- elm.style.position ='absolute';
- elm.style.top = Math.floor(Math.random()*90+5)+'%';
- elm.style.left = Math.floor(Math.random()*90+5)+'%';
-}
+    <div class="container">
+        <h4>Thank you for your response <br> We will get back to you soon</h4>
+        <br>
+        <img src="https://t3.ftcdn.net/jpg/01/62/43/58/360_F_162435894_AS4GzQ8YJfLvtps4evLCYrYZv3XoWzxW.jpg">
 
-//get the #btn_test
-var btn_test = document.querySelector('#btn_test');
-
-//register to call moveElmRand() on mouseenter event to #btn_test
-btn_test.addEventListener('mouseenter', function(e){ moveElmRand(e.target);});
-
-//register click to #btn_test
-btn_test.addEventListener('click', function(e){ alert('You are Good.');});
-</script>
+        <div class="center">
+            <button class="yes-btn"><a href="index.html">Home</a></button>
+            <button id="btn_test"><a href="contact.html">Previous Page</a></button>
+        </div>    
+    </div>
+    <script src="index.js"></script>
+</body>
 </html>
