@@ -6,6 +6,10 @@ body, html{
   background-color: #f1b83d;
 }
 
+img{
+  border-radius: 15px;
+}
+
 .content, h4{
   margin: auto;
   margin-top: 20px;
